@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/lightblue">
+
+    <EditText
+        android:id="@+id/ownerfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Owner First Name" />
+
+    <EditText
+        android:id="@+id/ownerlast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Owner Last Name" />
+
+    <EditText
+        android:id="@+id/ownermobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Owner Mobile"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/owneremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Owner e-mail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/ownernext"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/adduserdummy"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous" />
+
+</LinearLayout>

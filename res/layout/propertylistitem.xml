@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightblue">
+
+    <View
+        android:id="@+id/AvRibbon"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/available"
+        />
+    
+    <ImageView
+        android:id="@+id/listicon"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:src="@drawable/ic_launcher" />
+	
+    
+    <LinearLayout
+        android:id="@+id/rowdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+            android:id="@+id/rowtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type" />
+
+        <TextView
+            android:id="@+id/rowoffertype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offertype" />
+        
+        <TextView
+            android:id="@+id/rentprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rentprice" />
+        
+        <TextView
+            android:id="@+id/sealprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sealprice" />
+        
+        <TextView
+            android:id="@+id/rowrooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rooms" />
+		<TextView
+            android:id="@+id/rowarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area" />
+        <TextView
+            android:id="@+id/rowzipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zipcode" />
+
+    </LinearLayout>
+    
+
+</LinearLayout>

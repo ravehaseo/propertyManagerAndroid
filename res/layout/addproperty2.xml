@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/lightblue">
+
+    <EditText
+        android:id="@+id/addrooms"
+        android:hint="@string/number_of_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/addbaths"
+        android:hint="@string/number_of_baths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/addkitchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kitchen" />
+
+    <Spinner
+        android:id="@+id/addpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pool" />
+
+    <Spinner
+        android:id="@+id/addgarden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:entries="@array/garden" />
+
+    <CheckBox
+        android:id="@+id/addalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_system" />
+
+    <CheckBox
+        android:id="@+id/addsecurity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/security" />
+
+    <CheckBox
+        android:id="@+id/addavailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/available" 
+        android:checked="true"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2" >
+
+        <Button
+            android:id="@+id/addprevious2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_gravity="left"
+            android:text="@string/previous" />
+
+        <Button
+            android:id="@+id/addnext2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110dp"
+            android:layout_column="1"
+            android:layout_gravity="right|top"
+            android:layout_row="0"
+            android:text="@string/next" />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Search"
+    android:background="@color/lightblue">
+
+    <Spinner
+        android:id="@+id/searchoffertype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/offer_type" />"
+
+    <Spinner
+        android:id="@+id/searchproptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/search_proptype" />
+
+    <Spinner
+        android:id="@+id/searchrooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/rooms" />"
+
+    <Spinner
+        android:id="@+id/searchzip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distrect" />
+
+    <Spinner
+        android:id="@+id/searchprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/price" />
+
+    
+
+    <Button
+        android:id="@+id/btnsearch"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search" 
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

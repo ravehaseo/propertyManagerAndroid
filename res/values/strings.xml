@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Property Manager</string>
+    <string name="title_activity_login">Real Estate Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="release">This application is developed as a Thesis Poject
+        requirement for the B.Sc. degree in software Engineering, Budapest University
+        of Technology and Econamics (BME).</string>
+    <string name="user_name">User ID</string>
+    <string name="User_Name">User Name</string>
+    <string name="password">Password</string>
+    <string name="Password"> Password</string>
+    <string name="log_in">Log In</string>
+    <string name="loginmessage">Login failed please check your username or/and password</string>
+    <string name="title_activity_choices">Real Estate Manager</string>
+    <string name="list_all">List All Properties</string>
+    <string name="add_property"> Add New Property </string>
+    <string name="add_user">Add New User</string>
+    <string name="edit_property">Edit Existing Property</string>
+    <string name="edit_user">Edit Existing User</string>
+    <string name="exit">Exit Property Manager</string>
+    <string name="title_activity_splash">Real Estate Manager</string>
+    <string name="title_activity_listall">Real Estate Manager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_search">Real Estate Manager</string>
+    <string name="title_activity_add_property">Real Estate Manager</string>
+    <string name="type">Type of property</string>
+    <string name="offertype">Type of offer rent/seal</string>
+    <string name="rentprice">rent price</string>
+    <string name="sealprice">sale price</string>
+    <string name="rooms">Number of rooms</string>
+    <string name="area">area of property</string>
+    <string name="zipcode">zipcode</string>
+    <string name="title_activity_property_details">Real Estate Manager</string>
+    <string name="search">Search</string>
+    <string name="number_of_rooms">Number of rooms</string>
+    <string name="number_of_baths">Number of baths</string>
+    <string name="alarm_system">Alarm system</string>
+    <string name="security">Security</string>
+    <string name="available">Available</string>
+    <string name="previous">Back</string>
+    <string name="next">Next</string>
+	<string name="zip_code">Zip code</string>
+	<string name="street">Streat and building number</string>
+	<string name="floor_number">Floor number</string>
+	<string name="door_number">Door number</string>
+	<string name="price_euro">Price in Euro</string>
+	<string name="area_m2">Area in m2</string>
+	
+    <string-array name="offer_type">
+        <item>Sale</item>
+        <item>Rent</item>
+    </string-array>
+    <string-array name="price">
+        <item>Any price range</item>
+        <item>1000 or less</item>
+        <item>1000 to 3000</item>
+        <item>3000 to 4000</item>
+        <item>4000 to 5000</item>
+        <item>5000 to 10000</item>
+        <item>10000 to 50000</item>
+        <item>50000 to 100000</item>
+        <item>100000 to 300000</item>
+        <item>300000 to 500000</item>
+        <item>500000 to 1000000</item>
+        <item>1000000 or more</item>
+    </string-array>
+    <string-array name="rooms">
+        <item>Any number of rooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="distrect">
+        <item>In all distrects</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+    <string-array name="search_proptype">
+        <item>Any type of property</item>
+        <item>Appartment</item>
+        <item>Studio</item>
+        <item>House</item>
+        <item>Villa</item>
+        <item>Office</item>
+    </string-array>
+    <string-array name="add_proptype">
+        <item>Appartment</item>
+        <item>Studio</item>
+        <item>House</item>
+        <item>Villa</item>
+        <item>Office</item>
+    </string-array>
+    <string-array name="kitchen">
+        <item>Open kitchen</item>
+        <item>Closed kitchen</item>
+    </string-array>
+    <string-array name="pool">
+        <item>no pool</item>
+        <item>inside</item>
+        <item>outside</item>
+    </string-array>
+    <string-array name="garden">
+        <item>no garden</item>
+        <item>comone</item>
+        <item>private</item>
+    </string-array>
+
+    <string name="title_activity_add_picture">Real Estate Manager</string>
+
+</resources>
