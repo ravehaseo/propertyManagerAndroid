@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.propertymanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.propertymanager.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.Choices"
+            android:label="@string/title_activity_choices" >
+            <intent-filter>
+                <action android:name="android.intent.action.CHOICES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.Listall"
+            android:label="@string/title_activity_listall" >
+        </activity>
+        <activity
+            android:name="com.propertymanager.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.propertymanager.AddProperty"
+            android:label="@string/title_activity_add_property" >
+            <intent-filter>
+                <action android:name="android.intent.ADDPROPERTY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.AddProperty2"
+            android:label="@string/title_activity_add_property" >
+            <intent-filter>
+                <action android:name="android.intent.ADDPROPERTY2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.AddProperty3"
+            android:label="@string/title_activity_add_property" >
+            <intent-filter>
+                <action android:name="android.intent.ADDPROPERTY3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.PropertyDetails"
+            android:label="@string/title_activity_property_details" >
+            <intent-filter>
+                <action android:name="android.intent.action.DETAILS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.propertymanager.AddPicture"
+            android:label="@string/title_activity_add_picture" >
+            <intent-filter>
+                <action android:name="android.intent.action.ADDPICTURES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
