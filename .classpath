@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wissam/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar" sourcepath="/Users/wissam/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/wissam/.m2/repository/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3-javadoc.jar!/"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+			<attribute name="maven.artifactId" value="httpcore"/>
+			<attribute name="maven.version" value="4.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wissam/.m2/repository/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar" sourcepath="/Users/wissam/.m2/repository/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/wissam/.m2/repository/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-javadoc.jar!/"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
+			<attribute name="maven.artifactId" value="httpclient"/>
+			<attribute name="maven.version" value="4.3.5"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/wissam/.m2/repository/org/json/json/20090211/json-20090211.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.json"/>
+			<attribute name="maven.artifactId" value="json"/>
+			<attribute name="maven.version" value="20090211"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
